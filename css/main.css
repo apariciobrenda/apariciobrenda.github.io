@@ -1210,6 +1210,7 @@ button:focus {
   color: #013638;
   font-family: "Abril FatFace", sans-serif;
 }
+
 #pricing .pricing-table h1 {
   color: #3ecf8e;
   font-size: 50px;
@@ -1667,21 +1668,59 @@ button:focus {
    ========================================================================== */
 #footer-Content {
   background: #013638;
-  height: 500px;
+  height: 350px;
+  position: relative;
+}
+
+#footer-Content #footer-bg {
+  position: absolute;
+  width: 50%;
+  right: 0
 }
 
 #footer-Content .widget {
-  background-image: url(/img/trago-rosa.jpg);
-  background-size: cover;
+
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 
-#footer-Content .container-fluid {
+#footer-Content .container {
   padding: 0;
   height: 100%;
 }
-#footer-Content .footer-logo img {
-  padding-top: 70px;
+#footer-Content .container .row{
+  height: 100%;
+}
+
+#footer-Content .container .row .footer-content-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+
+#footer-Content .container .row .footer-content-container p {
+  color: #FFF;
+}
+
+#footer-Content .container .row .footer-content-container .redes-sociales {
+  margin-top: 24px;
+}
+#footer-Content .container .row .footer-content-container .redes-sociales i {
+  font-size: 32px;
+  color: #FFF;
+  margin-right: 16px;
+}
+
+#footer-Content .container .row .footer-content-container .trademark {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+#footer-Content .container .row .footer-content-container .trademark img {
+  height: 16px;
 }
 #footer-Content .form-control:focus {
   outline: none;
@@ -1701,10 +1740,16 @@ button:focus {
 #footer-Content .copyright a {
   color: #ddd;
 }
+
+#footer-Content .widget .widget-content {
+  width: 40%;
+  padding-left: 50px;
+}
 #footer-Content .widget p {
-  color: #e2e2e2;
+  color: #FFF;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 18px;
+  margin: 16px 0;
 }
 #footer-Content .widget .subscribe-area {
   position: relative;
@@ -1735,8 +1780,7 @@ button:focus {
 #footer-Content h3.block-title {
   color: #fff;
   font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 30px;
+
 }
 #footer-Content ul.menu li a {
   color: #e2e2e2;

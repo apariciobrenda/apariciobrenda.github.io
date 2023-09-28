@@ -1,0 +1,43 @@
+#business-plan .business-item-info ul {
+    margin-bottom: 32px;
+}
+#business-plan .business-item-info ul li  {
+    margin-bottom:8px;
+    color: #fff;
+}
+#business-plan .business-item-info ul li img{
+    width: 24px;
+    margin-right: 16px;
+}
+
+#business-plan .container .row .business-item-info .pricing-table-price {
+  font-size: 32px;
+  color: #013638;
+  font-family: "Abril FatFace", sans-serif;
+}
+
+#business-plan .container .row .business-item-info .pricing-table-price {
+  color: #fff;
+}
+
+#team {
+    background-image: url("../img/hero-area.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#team .single-team img {
+    border-radius: 24px;
+}
+
+#team .single-team .team-details h5.team-title {
+    color: #013638;
+}
+
+#pricing {
+    background-color: #013638;
+}
+
+#pricing h2 {
+    color: #fff;
+}
