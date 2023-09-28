@@ -41,3 +41,6 @@
 #pricing h2 {
     color: #fff;
 }
+.hero-area .overlay {
+    background-image: url("/img/intro-suscripcion.png");
+  }
