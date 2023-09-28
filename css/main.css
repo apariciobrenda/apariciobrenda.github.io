@@ -31,7 +31,7 @@ html {
 
 p {
   font-size: 14px;
-  color: #5e629c;
+  color: #013638;
   line-height: 26px;
   margin-bottom: 0;
 }
@@ -57,7 +57,7 @@ h5 {
   font-family: "Abril FatFace", sans-serif;
   font-size: 40px;
   font-weight: 400;
-  color: #fff;
+  color: #013638;
 }
 
 ul {
@@ -1534,7 +1534,7 @@ button:focus {
   padding: 5px;
   border-radius: 3px;
   background: #fff;
-  border: 1px dashed #346afe;
+  border: 1px dashed #ffffff;
 }
 
 #blog-single .blog-comment .comment-author {
@@ -1645,13 +1645,13 @@ button:focus {
   min-height: 52px;
   padding: 0px 0 0 28px;
   font-size: 16px;
-  color: #5e629c;
+  color: #ffffff;
 }
 
 #contact form#contactForm textarea {
   padding: 15px 0 0 28px;
   font-size: 16px;
-  color: #5e629c;
+  color: #ffffff;
 }
 
 #contact form#contactForm .form-control:focus {
@@ -1727,7 +1727,7 @@ button:focus {
 }
 #footer-Content .copyright {
   margin-top: 125px;
-  border-top: 1px solid #3c1f6e;
+  border-top: 1px solid #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
 }
